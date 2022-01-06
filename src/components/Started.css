@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page01 {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+}
+
+.page01 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 126.13px;
+  height: 43px;
+}
+
+.text {
+  margin: 5rem 6rem 0 2rem;
+}
+
+.text h1 {
+  color: #ffff;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.text p {
+  color: #ffff;
+  font-size: 16px;
+
+  margin-top: 2rem;
+}
+
+.button {
+  margin-top: 23rem;
+}
+
+.button button {
+  width: 310px;
+  height: 58px;
+
+  background-color: #FF296D;
+  border-radius: 10px;
+  color: #ffff;
+  font-size: 20px;
+  border: none;
+}
