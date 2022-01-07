@@ -26,7 +26,7 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  margin-bottom: 20rem;
+  margin-bottom: 25rem;
 
   position: absolute;
 }
@@ -49,20 +49,21 @@
 }
 
 .text-page02 {
-  margin: 3rem 8rem 4rem 0;
+  margin: 4rem 9rem 3.5rem 0;
 }
 
 .text-page02 h1 {
   color: #ffff;
-  font-size: 60px;
+  font-size: 55px;
   line-height: 60px;
   font-weight: 700;
 }
 
 .text-page02 p {
   color: #ffff;
-  font-size: 25px;
-  margin-top: 1rem;
+
+  font-size: 24px;
+  margin-top: .5rem;
 }
 
 .input {
@@ -72,7 +73,7 @@
 }
 
 .label-phone {
-  font-size: 19px;
+  font-size: 17px;
   color: #ffff;
 }
 
@@ -100,8 +101,26 @@
 input:-moz-placeholder {
   color: #ffff;
 }
+
 ::-webkit-input-placeholder { 
-  color:#ffff; 
+  color:rgb(141, 141, 141); 
   font-size: 16px;
   padding-left: 1rem;
+}
+
+.arrow {
+  width: 153px;
+  height: 62px;
+
+  margin-top: 2.4rem;
+  margin-right: 11.5rem;
+}
+
+.arrow p {
+  color: #ffff;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 1rem;
+
+  text-decoration: none;
 }

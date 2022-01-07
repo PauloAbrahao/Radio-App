@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Started />} />
         <Route path="sign-up" element={<SignUp />} />
-        
+
       </Routes>
     </BrowserRouter>
   );

@@ -45,6 +45,10 @@
   margin-top: 23rem;
 }
 
+.button:hover, button:hover {
+  cursor: pointer;
+}
+
 .button button {
   width: 310px;
   height: 58px;

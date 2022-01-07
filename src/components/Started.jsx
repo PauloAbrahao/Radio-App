@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Started.css";
 
 import logo from "./assets/logo.svg";
@@ -17,7 +18,7 @@ const Started = () => {
         </div>
 
         <div className="button">
-          <button>Get Started</button>
+          <Link to="/sign-up"><button>Get Started</button></Link>
         </div>
       </div>
   );

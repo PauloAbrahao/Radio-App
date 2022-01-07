@@ -1,8 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./SignUp.css";
 
 import play from "./assets/play.svg";
 import poligono from "./assets/poligono.svg";
+import arrow from "./assets/arrow.svg";
 
 const SignUp = () => {
   return (
@@ -18,8 +21,19 @@ const SignUp = () => {
       </div>
 
       <div className="input">
-        <label className="label-phone" htmlFor="phone-input">Phone Number</label>
+        <label className="label-phone" htmlFor="phone-input">
+          Phone Number
+        </label>
         <input id="phone-input" type="text" placeholder="Your phone number" />
+      </div>
+
+      <div className="arrow">
+        <Link to="">
+          <img className="arrow" src={arrow} alt="" />
+        </Link>
+        <Link to="" >
+          <p>Or Sign in</p>
+        </Link>
       </div>
     </div>
   );
