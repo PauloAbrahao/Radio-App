@@ -1,6 +1,7 @@
-# Site mobile desenvolvido baseando-se em projeto do Figma
+# Radio App
 <p align="center">
   <img src="./public/start.png" width="200" height= "400">
+  <img src="./public/sign-up.png" width="200" height= "400">
 </p>
 
 ## Projeto desenvolvido utilizando:
@@ -8,4 +9,4 @@
 - React Js
 - React-Router-Dom
 
-### Fiz esse projeto para treinar minhas habilidades na biblioteca ReactJs, utilizando também bibliotecas externas como React Router Dom para manipulação das páginas da aplicação.
+### Projeto desenvolvido para treinar minhas habilidades na biblioteca ReactJs, utilizando também bibliotecas externas como React Router Dom para manipulação das páginas da aplicação.
