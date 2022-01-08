@@ -21,10 +21,12 @@
 .logo {
   width: 126.13px;
   height: 43px;
+
+  margin-bottom: 3rem;
 }
 
 .text {
-  margin: 5rem 6rem 0 2rem;
+  margin: 0 6rem 0 2rem;
 }
 
 .text h1 {
